@@ -65,6 +65,7 @@ export default function App() {
       <div className="max-w-md mx-auto mt-10 space-y-5">
         {state.map(({ id, count }) => {
           return (
+            //showing of the value of the counter
             <Counter
               key={id}
               id={id}
